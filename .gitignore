@@ -1,0 +1,6 @@
+IMDB Dataset.csv
+*.sav  # Exclude trained model files
+__pycache__/
+*.pyc
+.env
+*.ipynb_checkpoints/
