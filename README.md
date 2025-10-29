@@ -74,6 +74,8 @@ Add real-time API with Flask/FastAPI for predictions
 Build Streamlit UI for interactive use
 Extend to multi-class sentiment (e.g., very positive, neutral, very negative)
 
+---
+
 👨‍💻 Author
 
 Prince Ambaliya
