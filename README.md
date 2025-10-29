@@ -2,11 +2,11 @@
 
 A Machine Learning model to classify IMDB movie reviews as **Positive** or **Negative** using `CountVectorizer`, `TfidfTransformer`, and `LogisticRegressionCV`.
 
-📈 Achieved **~89.63% Test Accuracy**.
+Achieved **~89.63% Test Accuracy**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 - **Dataset:** IMDB Dataset of 50,000 Movie Reviews ([Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews))  
 - **Model:** Logistic Regression with cross-validation (on TF-IDF transformed reviews)  
 - **Preprocessing:** Stopword removal, tokenization, TF-IDF feature extraction  
@@ -15,7 +15,7 @@ A Machine Learning model to classify IMDB movie reviews as **Positive** or **Neg
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 ```
 ├── Sentiment Analysis.ipynb # Jupyter notebook (training + evaluation)
 ├── save_model.sav # Trained logistic regression model (generated after training)
@@ -27,7 +27,7 @@ A Machine Learning model to classify IMDB movie reviews as **Positive** or **Neg
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. Load dataset of IMDB reviews (positive/negative).  
 2. Preprocess text (stopword removal + TF-IDF transformation).  
 3. Train Logistic Regression model with cross-validation.  
@@ -36,7 +36,7 @@ A Machine Learning model to classify IMDB movie reviews as **Positive** or **Neg
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 1.  **Clone the Repository**:
     ```bash:
       git clone https://github.com/your-username/imdb-sentiment-analyzer.git
@@ -58,7 +58,7 @@ A Machine Learning model to classify IMDB movie reviews as **Positive** or **Neg
 
 ---
 
-## 📊 Model Training
+## Model Training
 
 - Vectorization: CountVectorizer + TF-IDF Transformer
 - Classifier: Logistic Regression with cross-validation
@@ -67,7 +67,7 @@ A Machine Learning model to classify IMDB movie reviews as **Positive** or **Neg
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Explore Deep Learning models (RNN, LSTM, BERT) for better accuracy
 Add real-time API with Flask/FastAPI for predictions
@@ -75,8 +75,7 @@ Build Streamlit UI for interactive use
 Extend to multi-class sentiment (e.g., very positive, neutral, very negative)
 
 ---
-
-👨‍💻 Author
+Author
 
 Prince Ambaliya
 
